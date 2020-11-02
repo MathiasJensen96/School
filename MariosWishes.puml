@@ -1,0 +1,25 @@
+@startmindmap
+* Marios Pizzabar
+
+** Order
+*** Add/remove orders
+*** Pickup time
+*** List of orders
+**** Which pizza is next
+***** Sorted by order time
+*** Save all orders
+**** Show turnover
+**** Make statistics
+***** Which pizza is most popular
+
+*** Order options
+**** By phone
+**** In the store
+
+** Menu
+*** Different types of Pizza
+*** Show entire menu on screen
+
+** Payment
+
+@endmindmap

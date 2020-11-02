@@ -1,0 +1,38 @@
+@startuml
+
+class PizzaBar {
+Show Turnover
+}
+
+class Order {
+Save orders for statistics
+}
+
+class PickupTime {
+}
+
+class OrderOptions {
+Phone
+In the store
+}
+
+class ListOfOrders {
+add or remove orders
+NextPizza()
+}
+
+class Menu {
+ShowMenu()
+}
+
+class Pizza {
+}
+
+class Payment {
+}
+
+
+PizzaBar - Order
+
+
+@enduml
