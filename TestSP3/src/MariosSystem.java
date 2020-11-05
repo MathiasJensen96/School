@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class MariosSystem {
+    ArrayList<String> step1 = new ArrayList<>();
+    ArrayList<String> step2 = new ArrayList<>();
+
+    public MariosSystem() {
+        this.step1.add("Press 1 to show Menu");
+        this.step1.add("Press 2 to make a new Order");
+        this.step1.add("Choose a Pizza");
+        this.step1.add("Press 3 to Quit");
+
+    }
+
+}
