@@ -19,16 +19,13 @@ public class Main {
         menu = new Menu();
         mariosSystem = new MariosSystem();
         options();
-
-
-
-
     }
 
     public static void options(){
         System.out.println(mariosSystem.step1.get(0));
         System.out.println(mariosSystem.step1.get(1));
         System.out.println(mariosSystem.step1.get(3));
+        System.out.println(mariosSystem.step1.get(4));
         boolean finished = false;
         while (!finished){
             String choice = input.nextLine();
@@ -43,12 +40,12 @@ public class Main {
                     Order.selectPizza();
                     break;
                 case "3":
-                    System.out.println("Goodbye");
-                    finished = true;
+                    Statistik.readSortedOrderList();
                     break;
-
+                case "4":
+                    Statistik.readOrderList();
+                    Order.removeOrder();
             }
         }
-
     }
 }

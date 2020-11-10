@@ -1,0 +1,4 @@
+Mon Nov 09 12:30:04 CET 2020	2	10) Capricciosa: Tomatsauce, Ost, Skinke, Champignon, Løg og Oregano,61
+Mon Nov 09 12:42:17 CET 2020	00002	3) Cacciatore: Tomatsauce, Ost, Pepperoni og Oregano,57
+Mon Nov 09 13:14:57 CET 2020	1	13) Venezia: Tomatsauce, Ost, Skinke, Bacon og Oregano,61
+Mon Nov 09 13:27:12 CET 2020	00001	12) Le Blissola: Tomatsauce, Ost, Skinke, Rejer og Oregano,61

@@ -11,26 +11,18 @@ public class Menu {
     public Menu() throws FileNotFoundException {
 
         String token1 = "";
-
         Scanner menu = new Scanner(new File("Menu.txt"));
-
 
         while (menu.hasNextLine()) {
             token1 = menu.nextLine();
             temps.add(token1);
         }
         menu.close();
-
         String[] tempsArray = temps.toArray(new String[0]);
-
         for (String s: tempsArray) {
             System.out.println(s);
-
         }
-
     }
-
-
 
     @Override
     public String toString() {
@@ -50,25 +42,3 @@ public class Menu {
                 "\n" + temps.get(14);
     }
 }
-
-
-
-
-    /*
-    public static void showMenuKort(){
-        try {
-            File menuKort = new File("Menu.txt");
-            Scanner myScanner = new Scanner(menuKort);
-
-            while (myScanner.hasNextLine()) {
-                String data = myScanner.nextLine();
-                System.out.println(data);
-            }
-            myScanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-        }
-
-    }*/
-
